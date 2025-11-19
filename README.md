@@ -31,7 +31,6 @@ Add these to **.gitignore**:
 .env
 *.env
 frontend/.env
-backend/.env
 ```
 
 ### Frontend (`frontend/.env`)
@@ -39,7 +38,7 @@ backend/.env
 REACT_APP_API_BASE_URL=http://backend:8080
 ```
 
-### Backend (`.env`)
+### Backend (`application.properties`)
 ```
 SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/eventregistration
 SPRING_KAFKA_BOOTSTRAP_SERVERS=kafka:9092
@@ -124,14 +123,10 @@ npm run dev
 
 ## 📦 Technology Stack
 
-- **Frontend**: React.js, Vite, Axios  
+- **Frontend**: React.js, Vite, Axios, Nginx 
 - **Backend**: Spring Boot 3, Spring Security, Hibernate, JavaMail  
 - **Messaging**: Apache Kafka  
 - **Database**: MySQL 8.0  
 - **Payments**: Stripe API  
 - **Deployment**: Docker, Docker Compose, Nginx  
 
-## 🧑‍💻 Author
-
-**Balakrishnan Thoshinny**  
-Event Management System – Full-Stack Implementation
