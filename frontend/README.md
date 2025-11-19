@@ -105,28 +105,6 @@ The application uses HTTP Basic Authentication. After login, credentials are sto
 - Update profile picture
 - Change password
 
-## Development
-
-### Adding New Features
-
-1. Create new components in `src/components/`
-2. Add API services in `src/services/` if needed
-3. Update routes in `src/App.jsx`
-4. Add styling in `src/App.css`
-
-### Environment Variables
-
-You can create a `.env` file for environment-specific configuration:
-
-```
-VITE_API_BASE_URL=http://localhost:8080
-```
-
-Then use it in your code:
-```javascript
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
-```
-
 ## Troubleshooting
 
 ### CORS Issues
@@ -142,7 +120,4 @@ Make sure the backend CORS configuration allows requests from `http://localhost:
 - Check network tab in browser dev tools for failed requests
 - Verify API endpoints match the backend routes
 
-## License
-
-This project is part of the Event Registration System.
 
