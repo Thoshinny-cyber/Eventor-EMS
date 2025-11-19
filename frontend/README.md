@@ -55,41 +55,6 @@ npm run build
 
 The built files will be in the `dist` directory.
 
-## Project Structure
-
-```
-frontend/
-├── src/
-│   ├── components/       # React components
-│   │   ├── Login.jsx
-│   │   ├── Register.jsx
-│   │   ├── Home.jsx
-│   │   ├── EventList.jsx
-│   │   ├── EventDetail.jsx
-│   │   ├── Booking.jsx
-│   │   ├── Orders.jsx
-│   │   ├── Profile.jsx
-│   │   ├── Navbar.jsx
-│   │   └── ProtectedRoute.jsx
-│   ├── context/         # React Context
-│   │   └── AuthContext.jsx
-│   ├── services/        # API service layer
-│   │   ├── authService.js
-│   │   ├── eventService.js
-│   │   ├── categoryService.js
-│   │   ├── orderService.js
-│   │   ├── profileService.js
-│   │   └── discountService.js
-│   ├── utils/           # Utility functions
-│   │   └── api.js
-│   ├── App.jsx          # Main App component
-│   ├── App.css          # Global styles
-│   └── main.jsx         # Entry point
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
-```
 
 ## API Configuration
 
